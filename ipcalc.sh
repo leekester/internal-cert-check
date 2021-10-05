@@ -1,3 +1,5 @@
+#!/bin/bash
+
 vnetAdrRange=$1
 subnetSize=$2
 
