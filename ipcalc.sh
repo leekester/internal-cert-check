@@ -3,8 +3,8 @@
 vnetAdrRange=$1
 subnetSize=$2
 
-echo $1
-echo $2
+echo vnetAdrRange is $1
+echo subnetSize is $2
 
 MaxValue=255
 p=1
@@ -246,5 +246,6 @@ combined="${combined}${combined:+,}$token"
 done
 done
 done
+echo Calculated subnets are below
 echo $combined
 echo "##vso[task.setvariable variable=combined]$combined"
