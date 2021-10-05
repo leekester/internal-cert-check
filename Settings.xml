@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<Settings>
+  <EmailSettings>
+    <SMTPServer>smtp.contoso.com</SMTPServer>
+    <SMTPPort>25</SMTPPort>
+    <MailFrom>certchecker@contoso.com</MailFrom>
+    <MailTo>recipient@contoso.com</MailTo>
+  </EmailSettings>
+</Settings>
