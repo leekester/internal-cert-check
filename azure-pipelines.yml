@@ -15,4 +15,5 @@ steps:
   inputs:
     targetType: 'inline'
     script: |
-      sh ./ipcalc.sh $(vnetAdrRange) $(subnetSize)
+      chmod +x ./ipcalc.sh
+      ./ipcalc.sh $(vnetAdrRange) $(subnetSize)
