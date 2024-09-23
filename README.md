@@ -1,2 +1,3 @@
 # internal-certificate-expiry-checker
-Script to alert us when certificates issued by our internal CAs are approaching expiry
+Scripts to alert us when certificates issued by internal CAs are approaching expiry.
+Also mechanism for carrying out TLS handshake with endpoints (not just HTTP(S) ones)
