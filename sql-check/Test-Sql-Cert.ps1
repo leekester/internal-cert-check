@@ -26,7 +26,6 @@ function ConvertFrom-X509Certificate {
 $endpoints = Import-Csv .\endpoints.csv -UseCulture
 $certResults = @()
 
-
 # Loop through endpoints, performing TLS handshake
 ForEach ($endpoint in $endpoints) {
     Try {
